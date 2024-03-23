@@ -14,7 +14,7 @@ st.title(" 📊 - Data Visualiser Application")
 workingdir = os.path.dirname(os.path.abspath(__file__))
 
 # getting folder path
-folderpath = f"{workingdir}/dataVisualiser/data"
+folderpath = f"{workingdir}/data"
 
 # list of files present in "data" folder
 files = [fil for fil in os.listdir(folderpath) if fil.endswith(".csv")]
